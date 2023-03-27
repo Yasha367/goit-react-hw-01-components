@@ -1,0 +1,75 @@
+div, ul{
+    min-width: 300px;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+li{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	max-width: 100%;
+}
+
+p{
+	margin-bottom: 10px;
+}
+
+.profile{
+	background-color: white;
+	min-height:fit-content;
+	border-radius: 10px;
+	margin-bottom: 30px;
+}
+
+.name{
+	font-family: 'Manrope';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 22px;
+	line-height: 44px;
+}
+
+.avatar {
+	margin: 25px 0;
+	width: 100px;
+	height: 100px;
+	border-radius: 100px;
+	background-color: black;
+}
+
+.stats{
+	height: 100px;
+	background-color:rgb(200 200 200);
+	display: flex;
+	flex-direction: row;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+
+.stats__li{
+	width: 100px;
+	height: 100px;
+	border-right: 1px solid black;
+}
+
+.stats__li:last-child{
+	border: 0px;
+}
+
+.tag, .location{
+	color: rgb(150, 150, 150);
+}
+
+.label{
+	font-size: 16px;
+	color: rgb(150, 150, 150);
+}
+
+.quantity{
+	font-size: 22px;
+}
